@@ -28,9 +28,10 @@ opacity: 0.8;
 #hero{
     height: 456px;
     background: url('./assets/Hero-bg.png');
+    ;
     border: 2px dashed rgb(173, 171, 169);
-   margin-top: 90px;
-   margin-bottom: 90px;
+   margin: 90px 0px;    
+   padding: 0px;
    
 
 }
@@ -108,7 +109,7 @@ opacity: 0.7;
 .purpose-button{
    
     padding: 12px 20px 12px 20px;
-    margin: 0px 10px;
+    margin: 0px;
     box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
@@ -122,6 +123,20 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
     padding: 0px 0px;
+    margin-bottom: 138px;
 
+}
+
+/* My inspiration section starts */
+.inspiration{
+    max-width: 1140px;
+    max-height: 777px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+    
 }
 
