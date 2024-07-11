@@ -12,9 +12,17 @@ opacity: 0.7
 }
 
 .second-title{
-    font-size: 32;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
     font-weight: 800;
     text-align: center;
+}
+.first-purpose-title{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 400;
+text-align: center;
+opacity: 0.8;
 }
 
 #hero{
@@ -90,10 +98,30 @@ opacity: 0.7;
     align-items: center;
 
 }
-.purpose .first .second-title{
-    color: rgb(13, 19, 33);
-    font: Azeret Mono;
-font-size: 20px;
-font-weight: 800;
-text-align: center;
+.first-purpose, .second-purpose, .third-purpose{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0px;
+    padding: 48px;
 }
+
+.purpose-button{
+   
+    padding: 12px 20px 12px 20px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-size: 20px;
+}
+
+.purpose-content{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+    padding: 0px 0px;
+
+}
+
