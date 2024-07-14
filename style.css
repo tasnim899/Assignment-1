@@ -30,17 +30,8 @@
     font-weight: 400;
 }
 
-/* #hero {
-    height: 700px;
-    width: 100%;
-    background: url('./assets/Hero-bg.png');
-    border: 2px dashed rgb(173, 171, 169);
-    background-size: cover;
-    background-position: center;
-    margin: 90px 0px;
-    padding: 0px;
+/* hero section starts from here------- */
 
-} */
 #hero {
     height: 500px;
     width: 100%;
@@ -92,19 +83,6 @@
     margin-bottom: 14px;
 }
 
-/* .btn-container {
-    padding: 12px 14px 12px 14px;
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 12px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 28px;
-    opacity: 0.7;
-} */
 .text-container a{
     border: 1px solid black;
     padding: 12px 14px 12px 14px;
@@ -119,7 +97,7 @@
     opacity: 0.7;
 }
 
-/* The Why webdev page starts */
+/* The Why webdev page starts---------- */
 
 .purpose {
     width: 946px;
@@ -167,7 +145,7 @@
 
 }
 
-/* My inspiration section starts */
+/* My inspiration section starts ---------*/
 .inspiration {
     max-width: 1140px;
     max-height: 777px;
@@ -250,7 +228,7 @@ margin-top: 20px;
     padding: 40px;
 }
 
-/* support section starts */
+/* support section starts -----------*/
 
 .text h2 {
     color: white;
@@ -316,14 +294,7 @@ margin-top: 20px;
 
 }
 
-/* height: 314px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    /* margin: 50px, 150px; */
-/* padding: 64px 48px 64px 48px; */
-
+/* footer section starts from here-------------- */
 
 #footer {
     max-width: 1140px;
